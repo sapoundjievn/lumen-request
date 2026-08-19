@@ -1,0 +1,25 @@
+{
+  "name": "lumen-request",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3001",
+    "build": "next build",
+    "start": "next start -p 3001"
+  },
+  "dependencies": {
+    "next": "15.3.9",
+    "react": "19.1.1",
+    "react-dom": "19.1.1",
+    "stripe": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "typescript": "^5"
+  },
+  "overrides": {
+    "next": "15.3.9"
+  }
+}
